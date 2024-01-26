@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class PlaceViewModel: ObservableObject {
     
     enum State {
