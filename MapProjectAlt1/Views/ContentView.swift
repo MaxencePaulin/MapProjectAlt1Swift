@@ -30,7 +30,7 @@ struct ContentView: View {
         NavigationView {
             ZStack {
                 VStack {
-                    if (alreadyCreate == false) {
+                    if (alreadyCreate == true) {
 
                         switch placeViewModel.state {
                         case .success(let places):
